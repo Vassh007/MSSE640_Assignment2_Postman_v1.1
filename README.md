@@ -169,6 +169,23 @@ Here are five publicly available Open APIs you can explore:
 - [🌐 The Role of APIs in Modern Web & Mobile Apps | DEV.to](https://dev.to/dr_lachlanhenderson_4dfa/the-role-of-apis-in-modern-web-and-mobile-applications-2coa#:~:text=APIs%20,part%20of%20modern%20app%20development)
 -  [🧪 REST API Testing Best Practices | QAlified](https://qalified.com/blog/rest-api-testing/#:~:text=HTTP%20status%20codes%3A)
 
+## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/32d85e22-bfa2-4fec-aa5d-2947cbfa7a41)
+![image](https://github.com/user-attachments/assets/c70ce703-4861-4caf-a1c5-6cea16419981)
+![image](https://github.com/user-attachments/assets/c3d583e7-88db-4bf7-b9aa-074f154942d7)
+![image](https://github.com/user-attachments/assets/92f5e706-2d5a-4a33-bbf8-89477b9dfb69)
+![image](https://github.com/user-attachments/assets/b462db74-df0c-4975-8121-7313e423ce69)
+![image](https://github.com/user-attachments/assets/83cae643-f8ad-41d7-b477-cdea90d65b59)
+![image](https://github.com/user-attachments/assets/bf0723a5-ca85-4a4a-8235-28321dabfdbc)
+![image](https://github.com/user-attachments/assets/7ae8f49a-6990-442d-b519-7a1bea41a1c5)
+![image](https://github.com/user-attachments/assets/53a06ae6-ac6a-4a3e-a7d3-ee3861036053)
+![image](https://github.com/user-attachments/assets/b81abede-bedc-4bcb-97cb-a6ad330028ab)
+![image](https://github.com/user-attachments/assets/bb54ba29-6fa7-461a-bc8c-14e5add64362)
+![image](https://github.com/user-attachments/assets/d106f6b9-f6a2-4aca-bfb7-a9fed73a0303)
+![image](https://github.com/user-attachments/assets/ba17db72-2c58-41bc-88b0-5173b34cd710)
+![image](https://github.com/user-attachments/assets/2606adc7-3d23-4e0e-9a80-f675e821e0b1)
+
+
 
 
 ---
