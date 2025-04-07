@@ -168,6 +168,8 @@ Here are five publicly available Open APIs you can explore:
 - [🌐 Why Is HTTP Stateless? | DEV.to](https://dev.to/codexam/why-is-http-stateless-2m3p#:~:text=HTTP%20stands%20for%20Hypertext%20Transfer,for%20a%20resource%20or%20a)  
 - [🌐 The Role of APIs in Modern Web & Mobile Apps | DEV.to](https://dev.to/dr_lachlanhenderson_4dfa/the-role-of-apis-in-modern-web-and-mobile-applications-2coa#:~:text=APIs%20,part%20of%20modern%20app%20development)
 -  [🧪 REST API Testing Best Practices | QAlified](https://qalified.com/blog/rest-api-testing/#:~:text=HTTP%20status%20codes%3A)
+-  https://triangle-middleware-app-production.up.railway.app/swagger-ui/index.html#/quad-controller/deleteDefaults
+-  https://dummy.restapiexample.com/
 
 ## 📸 Screenshots
 ![image](https://github.com/user-attachments/assets/32d85e22-bfa2-4fec-aa5d-2947cbfa7a41)
@@ -184,6 +186,9 @@ Here are five publicly available Open APIs you can explore:
 ![image](https://github.com/user-attachments/assets/d106f6b9-f6a2-4aca-bfb7-a9fed73a0303)
 ![image](https://github.com/user-attachments/assets/ba17db72-2c58-41bc-88b0-5173b34cd710)
 ![image](https://github.com/user-attachments/assets/2606adc7-3d23-4e0e-9a80-f675e821e0b1)
+![image](https://github.com/user-attachments/assets/d692ad96-a328-49fa-9089-90f17514302c)
+![image](https://github.com/user-attachments/assets/59266651-91ad-4892-93ea-a894f1932c58)
+![image](https://github.com/user-attachments/assets/f7c659ad-d51c-4816-85e9-c878cc373853)
 
 
 
