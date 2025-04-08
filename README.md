@@ -202,9 +202,57 @@ Here are five publicly available Open APIs you can explore:
 ![image](https://github.com/user-attachments/assets/a68f12da-e344-4e70-b6f7-8380eff7f914)
 ![image](https://github.com/user-attachments/assets/d2a5ec7e-abcd-4ae6-9d03-75d87f636300)
 ![image](https://github.com/user-attachments/assets/a5766f9f-6027-4392-be20-731dc79c448f)
+![image](https://github.com/user-attachments/assets/e598fe21-b293-42f8-a70d-79237e8fb187)
+![image](https://github.com/user-attachments/assets/58efe199-ddf8-4048-a99b-c31b7e07c2df)
+![image](https://github.com/user-attachments/assets/10aa00d3-d293-493e-b5d2-5dc9fecfad83)
+![image](https://github.com/user-attachments/assets/397fad65-cfca-44a3-b72c-25bc29ddc749)
+![image](https://github.com/user-attachments/assets/7648e9f2-e190-4798-9023-693447e92586)
+![image](https://github.com/user-attachments/assets/5111a1b8-8ff0-4478-9055-26f831d69cbf)
 
 
-##
+
+## 🚀 Dummy REST API & 🔺 Triangle API Testing
+### Dummy REST API & Geometrical API Testing  – Data Persistence
+In this experiment, Dummy REST API responses are used and do not persist changes. A subsequent GET request returns the original static dataset after adding, updating, or deleting an employee. For example, the Dummy API always returns the same list of 24 employees (IDs 1–24) on each GET call, even after a new employee has been POSTed. The screenshot above shows that a follow-up GET for all employees did not include the new entry after creating a new employee, confirming that the API’s data is not saved between requests. In short, Dummy REST API is stateless regarding data storage: any write operations do not affect the results of future read requests. Example: After a successful DELETE operation (id:2), the employee list still included the supposedly deleted record.
+
+Alternatively, we could store data for testing Triangles and Quadrilaterals using Swagger and the Git Bash CLI, as illustrated in the above image. However, this method only retrieves the most recently posted Quadrilateral, rather than any geometric shape created prior to the latest post. This indicates that the system does not fully retain information and operates in a stateless manner, as it relies on the most recent session to recall the data.
+
+## Successful Request Examples (Dummy API)
+- **GET All Employees:** A GET request to the /employees endpoint returns a JSON list of all employees with their details. The response includes a status ("success"), the data array (each with id, employee_name, employee_salary, etc.), and a message (e.g. “Successfully! All records has been fetched.”). In the screenshot, the API returned the full list of employees, demonstrating a successful READ request with the expected data and message.
+  
+- **GET Employee by ID:** Requesting a specific employee (e.g. /employee/1) returns just that one record. The API responds with "status": "success", a data object for the employee, and a message “Record has been fetched.” For example, getting employee ID 1 yields the record for “Tiger Nixon” with his salary and age. (Screenshot shows a single JSON object for the requested ID, confirming the GET-by-ID functionality.)
+
+- **POST Request Issue with Dummy REST API (405 Method Not Allowed)**
+While testing the Dummy REST API, we attempted to create a new employee by sending a POST request to the /create endpoint. Despite following the correct JSON format—providing a name, salary, and age—the API consistently responded with an error. The response returned was a 405 Method Not Allowed, accompanied by the following HTML-formatted error message:
+
+                            ````html
+                            Copy
+                            Edit
+                            Oops! An Error Occurred
+                            The server returned a "405 Method Not Allowed".
+                            Something is broken. Please let us know what you were doing when this error occurred.
+                            We will fix it as soon as possible. Sorry for any inconvenience caused. ````
+This behavior was consistently observed across multiple attempts, with different payload variations (as shown in the screenshots). Each attempt to perform a POST request to create new records failed identically. However, this issue arose only during the use of Postman, and we could make an employee through the CLI command in Git Bash.
+- **PUT request to /update/1:**
+Successfully returned "status": "success" along with a confirmation message, "Successfully! Record has been updated." This indicates that the API simulates successful updates without persisting them. In addition, CLI and Swagger with GUI were also able to perform this action successfully.
+
+- **DELETE request to /delete/2:**
+Returned "status": "success" and a confirmation message "Successfully! Record has been deleted". Again, this deletion was not persistent as subsequent GET requests still returned the same original data. Finally, it was also a success with Swagger and Git Bash.
+
+##Advantages of cURL Over Postman:
+- cURL successfully executed POST requests when Postman encountered unexplained 405 errors.
+
+- Ideal for quick, repeatable, command-line-based testing, automation, and debugging API endpoints.
+
+- Clearly demonstrates HTTP responses and error codes directly, without the overhead of a GUI.
+
+##Summary of Observations:
+- Persistence: Dummy API simulates CRUD operations without persistent storage. Each GET request returns static data.
+
+- Error Handling: Consistent handling of invalid requests (405, 429, 404) across Postman and cURL, indicating robust error response handling.
+
+- Tool Comparison: Postman provides an intuitive GUI, yet encountered unexplained method issues. cURL proved reliable for quick API interaction and debugging purposes.
+
 
 
 
