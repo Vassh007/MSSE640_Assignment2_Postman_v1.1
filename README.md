@@ -189,7 +189,22 @@ Here are five publicly available Open APIs you can explore:
 ![image](https://github.com/user-attachments/assets/d692ad96-a328-49fa-9089-90f17514302c)
 ![image](https://github.com/user-attachments/assets/59266651-91ad-4892-93ea-a894f1932c58)
 ![image](https://github.com/user-attachments/assets/f7c659ad-d51c-4816-85e9-c878cc373853)
+![image](https://github.com/user-attachments/assets/1cc52183-359d-4fba-b46f-e47342ed0a87)
+![image](https://github.com/user-attachments/assets/ba45e88c-a958-4607-85cc-5950945ccff5)
+![image](https://github.com/user-attachments/assets/b6466e61-61af-4323-a2c2-620ffd1603c3)
+![image](https://github.com/user-attachments/assets/f2619e77-37d7-4696-8f3a-61a33b8ac16c)
+![image](https://github.com/user-attachments/assets/9b4e96c7-1e74-42de-8a3b-8e804db30d1e)
+![image](https://github.com/user-attachments/assets/c1fa09cc-1e31-4d39-a1b4-f54736d7f5b1)
+![image](https://github.com/user-attachments/assets/d682eff1-795c-46f9-9909-1d60ebee6f77)
+![image](https://github.com/user-attachments/assets/c78131a9-be4a-4cf3-854a-611b0a6b739e)
+![image](https://github.com/user-attachments/assets/93717d17-1593-431f-ac20-ce8bb0a9f348)
+![image](https://github.com/user-attachments/assets/e6d9223f-92de-44cd-b702-e44efff43437)
+![image](https://github.com/user-attachments/assets/a68f12da-e344-4e70-b6f7-8380eff7f914)
+![image](https://github.com/user-attachments/assets/d2a5ec7e-abcd-4ae6-9d03-75d87f636300)
+![image](https://github.com/user-attachments/assets/a5766f9f-6027-4392-be20-731dc79c448f)
 
+
+##
 
 
 
