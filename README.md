@@ -239,14 +239,14 @@ Successfully returned "status": "success" along with a confirmation message, "Su
 - **DELETE request to /delete/2:**
 Returned "status": "success" and a confirmation message "Successfully! Record has been deleted". Again, this deletion was not persistent as subsequent GET requests still returned the same original data. Finally, it was also a success with Swagger and Git Bash.
 
-##Advantages of cURL Over Postman:
-- cURL successfully executed POST requests when Postman encountered unexplained 405 errors.
+## Advantages of cURL Over Postman:
+- cURL successfully executed POST requests when Postman encountered unexplained 405 errors and had difficulties testing **POST**.
 
 - Ideal for quick, repeatable, command-line-based testing, automation, and debugging API endpoints.
 
 - Clearly demonstrates HTTP responses and error codes directly, without the overhead of a GUI.
 
-##Summary of Observations:
+## Summary of Observations:
 - Persistence: Dummy API simulates CRUD operations without persistent storage. Each GET request returns static data.
 
 - Error Handling: Consistent handling of invalid requests (405, 429, 404) across Postman and cURL, indicating robust error response handling.
