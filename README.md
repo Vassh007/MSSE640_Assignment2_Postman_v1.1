@@ -232,7 +232,7 @@ While testing the Dummy REST API, we attempted to create a new employee by sendi
                             The server returned a "405 Method Not Allowed".
                             Something is broken. Please let us know what you were doing when this error occurred.
                             We will fix it as soon as possible. Sorry for any inconvenience caused. ````
-This behavior was consistently observed across multiple attempts, with different payload variations (as shown in the screenshots). Each attempt to perform a POST request to create new records failed identically. However, this issue arose only during the use of Postman, and we could make an employee through the CLI command in Git Bash.
+  This behavior was consistently observed across multiple attempts, with different payload variations (as shown in the screenshots). Each attempt to perform a POST request to create new   records failed identically. However, this issue arose only during the use of Postman, and we could make an employee through the CLI command in Git Bash.
 - **PUT request to /update/1:**
 Successfully returned "status": "success" along with a confirmation message, "Successfully! Record has been updated." This indicates that the API simulates successful updates without persisting them. In addition, CLI and Swagger with GUI were also able to perform this action successfully.
 
