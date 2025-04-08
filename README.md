@@ -124,7 +124,7 @@ By exposing powerful geospatial functionality through an open API, Google empowe
 
 ## 🛡️ Cross-Origin Resource Sharing (CORS)
 
-**CORS** is a **browser security feature** that restricts web pages from making requests to a domain different from the one that served the original page.
+CORS is a mechanism that allows web applications on one domain to request resources from a server on a different domain despite the web's default same-origin policy. The same-origin policy usually prevents web pages from requesting a different domain for security reasons. For better understanding let provide an example of that we are running a web app on  `https://myapp.com` and want to fetch data from `https://api.someotherdomain.com`, the API server must explicitly permit it via CORS headers (like `Access-Control-Allow-Origin`).
 
 It protects users from:
 - 🎭 Cross-site request forgery (CSRF)  
