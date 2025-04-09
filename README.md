@@ -157,20 +157,6 @@ Here are five publicly available Open APIs you can explore:
 
 ---
 
-## 📚 Resources
-
-- [📖 HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP)  
-- [🔐 What is CORS? | Web Security Academy](https://portswigger.net/web-security/cors)  
-- [🧰 What is an API? | MuleSoft](https://www.mulesoft.com/api/what-is-an-api)  
-- [📘 API Use Cases & Benefits | Kong](https://konghq.com/blog/learning-center/what-is-api)  
-- [🗺️ Google Maps Platform Documentation](https://developers.google.com/maps/documentation)  
-- [💡 API Examples | Netguru](https://www.netguru.com/blog/api-examples#:~:text=Public%20APIs%20are%20open%20for,work%20with%20specific%20business%20partners)
-- [🌐 Why Is HTTP Stateless? | DEV.to](https://dev.to/codexam/why-is-http-stateless-2m3p#:~:text=HTTP%20stands%20for%20Hypertext%20Transfer,for%20a%20resource%20or%20a)  
-- [🌐 The Role of APIs in Modern Web & Mobile Apps | DEV.to](https://dev.to/dr_lachlanhenderson_4dfa/the-role-of-apis-in-modern-web-and-mobile-applications-2coa#:~:text=APIs%20,part%20of%20modern%20app%20development)
--  [🧪 REST API Testing Best Practices | QAlified](https://qalified.com/blog/rest-api-testing/#:~:text=HTTP%20status%20codes%3A)
--  https://triangle-middleware-app-production.up.railway.app/swagger-ui/index.html#/quad-controller/deleteDefaults
--  https://dummy.restapiexample.com/
-
 ## 📸 Screenshots
 ![image](https://github.com/user-attachments/assets/32d85e22-bfa2-4fec-aa5d-2947cbfa7a41)
 ![image](https://github.com/user-attachments/assets/c70ce703-4861-4caf-a1c5-6cea16419981)
@@ -257,6 +243,20 @@ Returned "status": "success" and a confirmation message "Successfully! Record ha
 
 
 ---
+
+## 📚 Resources
+
+- [📖 HTTP | MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP)  
+- [🔐 What is CORS? | Web Security Academy](https://portswigger.net/web-security/cors)  
+- [🧰 What is an API? | MuleSoft](https://www.mulesoft.com/api/what-is-an-api)  
+- [📘 API Use Cases & Benefits | Kong](https://konghq.com/blog/learning-center/what-is-api)  
+- [🗺️ Google Maps Platform Documentation](https://developers.google.com/maps/documentation)  
+- [💡 API Examples | Netguru](https://www.netguru.com/blog/api-examples#:~:text=Public%20APIs%20are%20open%20for,work%20with%20specific%20business%20partners)
+- [🌐 Why Is HTTP Stateless? | DEV.to](https://dev.to/codexam/why-is-http-stateless-2m3p#:~:text=HTTP%20stands%20for%20Hypertext%20Transfer,for%20a%20resource%20or%20a)  
+- [🌐 The Role of APIs in Modern Web & Mobile Apps | DEV.to](https://dev.to/dr_lachlanhenderson_4dfa/the-role-of-apis-in-modern-web-and-mobile-applications-2coa#:~:text=APIs%20,part%20of%20modern%20app%20development)
+-  [🧪 REST API Testing Best Practices | QAlified](https://qalified.com/blog/rest-api-testing/#:~:text=HTTP%20status%20codes%3A)
+-  https://triangle-middleware-app-production.up.railway.app/swagger-ui/index.html#/quad-controller/deleteDefaults
+-  https://dummy.restapiexample.com/
 
 ✍️ **Authors**: Jose Gracia Vallejo, Suvash Shrestha  
 
