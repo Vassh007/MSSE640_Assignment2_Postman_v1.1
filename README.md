@@ -237,7 +237,7 @@ Returned "status": "success" and a confirmation message "Successfully! Record ha
 
 - Error Handling: Consistent handling of invalid requests (405, 429, 404) across Postman and cURL, indicating robust error response handling.
 
-- Tool Comparison: Postman provides an intuitive GUI, yet encountered unexplained method issues. cURL proved reliable for quick API interaction and debugging purposes.
+- Tool Comparison: Postman provides an intuitive GUI, yet encountered unexplained method issues. cURL proved reliable for quick API interaction and debugging purposes. 
 
 
 
